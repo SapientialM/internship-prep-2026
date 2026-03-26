@@ -1,0 +1,271 @@
+# NexT Theme Configuration
+# Docs: https://theme-next.js.org/docs/theme-settings/
+
+# =========================================================
+# Theme Core Configuration
+# =========================================================
+
+# Allow to cache content generation.
+cache:
+  enable: true
+
+# Remove unnecessary files after hexo generate.
+minify: false
+
+# Define custom file paths.
+# Create your custom files in site directory `source/_data` and uncomment needed files below.
+custom_file_path:
+  #head: source/_data/head.njk
+  #header: source/_data/header.njk
+  #sidebar: source/_data/sidebar.njk
+  #postMeta: source/_data/post-meta.njk
+  #postBodyEnd: source/_data/post-body-end.njk
+  #footer: source/_data/footer.njk
+  #styles: source/_data/styles.styl
+  #variables: source/_data/variables.styl
+  #mixins: source/_data/mixins.styl
+
+# =========================================================
+# Site Information Settings
+# =========================================================
+
+favicon:
+  small: /images/favicon-16x16-next.png
+  medium: /images/favicon-32x32-next.png
+  apple_touch_icon: /images/apple-touch-icon-next.png
+  safari_pinned_tab: /images/logo.svg
+
+# =========================================================
+# Menu Settings
+# =========================================================
+
+menu:
+  home: / || fa fa-home
+  categories: /categories/ || fa fa-th
+  tags: /tags/ || fa fa-tags
+  archives: /archives/ || fa fa-archive
+  #about: /about/ || fa fa-user
+
+menu_settings:
+  icons: true
+  badges: false
+
+# =========================================================
+# Sidebar Settings
+# =========================================================
+
+sidebar:
+  position: left
+  display: post
+  padding: 18
+  offset: 12
+
+# Sidebar Avatar
+avatar:
+  url: #/images/avatar.gif
+  rounded: false
+  opacity: 1
+  rotated: false
+
+# Site Author Description
+#bio: 
+
+social:
+  GitHub: https://github.com/your-username || fab fa-github
+  #E-Mail: mailto:your-email@example.com || fa fa-envelope
+
+social_icons:
+  enable: true
+  icons_only: false
+  transition: false
+
+# Blogrolls
+links_settings:
+  icon: fa fa-globe
+  icon_color: "#d85151"
+
+# Sidebar TOC Settings
+toc:
+  enable: true
+  number: true
+  max_depth: 4
+  min_depth: 1
+  expand: true
+  list_number: true
+
+# =========================================================
+# Post Settings
+# =========================================================
+
+# Automatically scroll page to section which is under <!-- more --> mark.
+scroll_to_more: true
+
+# Automatically save scroll position on each post/page in cookies.
+save_scroll: false
+
+# Automatically excerpt description in homepage as preamble text.
+excerpt_description: true
+
+# Automatically Excerpt. Not recommend.
+# Use <!-- more --> in the post to control excerpt accurately.
+auto_excerpt:
+  enable: true
+  length: 200
+
+# =========================================================
+# Misc Theme Settings
+# =========================================================
+
+# Use velocity to animate everything.
+motion:
+  enable: true
+  async: false
+  transition:
+    # Transition variants:
+    # fadeIn | fadeOut | flipXIn | flipXOut | flipYIn | flipYOut | flipBounceXIn | flipBounceXOut | flipBounceYIn | flipBounceYOut
+    # swoopIn | swoopOut | whirlIn | whirlOut | shrinkIn | shrinkOut | expandIn | expandOut
+    # bounceIn | bounceOut | bounceUpIn | bounceUpOut | bounceDownIn | bounceDownOut | bounceLeftIn | bounceLeftOut | bounceRightIn | bounceRightOut
+    # slideUpIn | slideUpOut | slideDownIn | slideDownOut | slideLeftIn | slideLeftOut | slideRightIn | slideRightOut
+    # slideUpBigIn | slideUpBigOut | slideDownBigIn | slideDownBigOut | slideLeftBigIn | slideLeftBigOut | slideRightBigIn | slideRightBigOut
+    # perspectiveUpIn | perspectiveUpOut | perspectiveDownIn | perspectiveDownOut | perspectiveLeftIn | perspectiveLeftOut | perspectiveRightIn | perspectiveRightOut
+    post_block: fadeIn
+    post_header: fadeInDown
+    post_body: fadeInDown
+    coll_header: fadeInLeft
+    # Only for Pisces | Gemini.
+    sidebar: fadeInUp
+
+# Back to top
+back2top:
+  enable: true
+  # Back to top button height (in px).
+  scrollpercent: true
+
+# Reading progress bar
+reading_progress:
+  enable: true
+  color: "#37c6c0"
+  height: 2px
+
+# =========================================================
+# Comments Settings
+# =========================================================
+
+# Multiple Comment System Support
+comments:
+  style: tabs
+  active:
+  storage: true
+  lazyload: false
+  nav:
+
+# =========================================================
+# Local Search
+# =========================================================
+
+local_search:
+  enable: true
+  # If auto, trigger search by changing input.
+  # If manual, trigger search by pressing enter key or search button.
+  trigger: auto
+  # Show top n results per article, show all results by setting to -1
+  top_n_per_article: 5
+  # Unescape html strings to the readable one.
+  unescape: false
+  # Preload the search data when the page loads.
+  preload: false
+
+# =========================================================
+# Code Highlight Settings
+# =========================================================
+
+codeblock:
+  theme:
+    light: default
+    dark: dark
+  prism:
+    light: prism
+    dark: prism-dark
+  copy_button:
+    enable: true
+    style: mac
+
+# =========================================================
+# Footer Settings
+# =========================================================
+
+footer:
+  since: 2024
+  icon:
+    name: fa fa-heart
+    color: "#ff0000"
+
+# =========================================================
+# Charts Settings
+# =========================================================
+
+# Mermaid
+mermaid:
+  enable: true
+  version: "9.3.0"
+
+# =========================================================
+# Tags Settings
+# =========================================================
+
+# Note tag (bs-callout)
+note:
+  style: flat
+  icons: true
+  light_bg_offset: 0
+
+# Tabs
+tabs:
+  enable: true
+  transition:
+    tabs: true
+    labels: true
+
+# =========================================================
+# Mobile Settings
+# =========================================================
+
+# Reduce padding / margin indents on devices with narrow width.
+mobile_layout_economy: false
+
+# Android Chrome header panel color ($brand-bg)
+android_chrome_color: "#222"
+
+# =========================================================
+# Fancybox Settings
+# =========================================================
+
+fancybox: true
+
+# =========================================================
+# Creative Commons
+# =========================================================
+
+creative_commons:
+  license: by-nc-sa
+  sidebar: false
+  post: false
+  language: deed.zh
+
+# =========================================================
+# SEO Settings
+# =========================================================
+
+seo: true
+index_with_subtitle: false
+
+# =========================================================
+#pace
+# =========================================================
+
+pace:
+  enable: true
+  # Themes list:
+  # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple
+  # corner-indicator | fill-left | flash | flat-top | loading-bar | mac-osx | material | minimal
+  theme: minimal

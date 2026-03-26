@@ -53,12 +53,6 @@ subtitle: '副标题'
 description: '站点描述'
 author: '你的名字'
 url: https://your-username.github.io/internship-prep-2026
-
-# 部署配置
-deploy:
-  type: git
-  repo: git@github.com:your-username/internship-prep-2026.git
-  branch: gh-pages
 ```
 
 **`_config.next.yml`**:
@@ -154,8 +148,8 @@ git commit -m "add: HashMap源码解析笔记"
 git commit -m "update: Java基础清单进度"
 git commit -m "add: 字节跳动一面面经"
 
-# 推送到 GitHub
-git push origin main
+# 推送到 GitHub（根据你的分支名，可能是 master 或 main）
+git push origin master
 ```
 
 推送后会自动触发 GitHub Actions 部署。
@@ -261,7 +255,7 @@ public class Hello {
 
 ### 自动部署
 
-默认已配置 GitHub Actions，每次 push 到 main 分支会自动部署到 `gh-pages` 分支。
+默认已配置 GitHub Actions，每次 push 到 master 分支会自动部署网站。
 
 **如果你想部署到其他分支**，需要修改 `.github/workflows/pages.yml` 文件。
 
@@ -282,17 +276,14 @@ https://your-username.github.io/internship-prep-2026
 
 ### 手动部署（备用）
 
-如果自动部署失败，可以手动部署：
+如果自动部署失败，可以本地构建后手动上传：
 
 ```bash
-# 生成静态文件
+# 生成静态文件到 public 目录
 npm run build
 
-# 部署
-npm run deploy
+# 然后手动将 public 目录内容部署到服务器
 ```
-
-> ⚠️ 注意：手动部署需要有 gh-pages 分支的写入权限。
 
 ---
 

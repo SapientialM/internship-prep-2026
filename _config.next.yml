@@ -98,19 +98,21 @@ toc:
 # =========================================================
 
 # Automatically scroll page to section which is under <!-- more --> mark.
-scroll_to_more: true
+scroll_to_more: false
 
 # Automatically save scroll position on each post/page in cookies.
 save_scroll: false
 
 # Automatically excerpt description in homepage as preamble text.
-excerpt_description: true
+# 设置为 false，首页不显示文章描述
+excerpt_description: false
 
 # Automatically Excerpt. Not recommend.
 # Use <!-- more --> in the post to control excerpt accurately.
+# 禁用自动摘要，首页只显示标题
 auto_excerpt:
-  enable: true
-  length: 200
+  enable: false
+  length: 0
 
 # =========================================================
 # Misc Theme Settings

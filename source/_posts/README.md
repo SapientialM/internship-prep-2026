@@ -17,25 +17,25 @@ categories: 首页
 
 ### 1️⃣ 八股文
 
-- {% post_link 01-JavaSE 'JavaSE' %}
-- {% post_link 02-JUC 'JUC并发' %}
-- {% post_link 03-JVM 'JVM' %}
-- {% post_link 04-MySQL 'MySQL' %}
-- {% post_link 05-Redis 'Redis' %}
-- {% post_link 06-Kafka 'Kafka' %}
-- {% post_link 07-Spring 'Spring' %}
-- {% post_link 08-计算机网络 '计算机网络' %}
-- {% post_link 09-操作系统 '操作系统' %}
-- {% post_link 10-分布式 '分布式' %}
-- {% post_link 11-问题排查 '问题排查' %}
-- {% post_link 12-场景题 '场景题' %}
-- {% post_link 13-数据结构与算法 '数据结构与算法' %}
-- {% post_link 14-分库分表 '分库分表' %}
-- {% post_link 15-面试手撕算法 '面试手撕算法' %}
-- {% post_link 16-智力题 '智力题' %}
-- {% post_link 17-AI大模型 'AI大模型' %}
+- [JavaSE](八股/01-JavaSE.html)
+- [JUC并发](八股/02-JUC.html)
+- [JVM](八股/03-JVM.html)
+- [MySQL](八股/04-MySQL.html)
+- [Redis](八股/05-Redis.html)
+- [Kafka](八股/06-Kafka.html)
+- [Spring](八股/07-Spring.html)
+- [计算机网络](八股/08-计算机网络.html)
+- [操作系统](八股/09-操作系统.html)
+- [分布式](八股/10-分布式.html)
+- [问题排查](八股/11-问题排查.html)
+- [场景题](八股/12-场景题.html)
+- [数据结构与算法](八股/13-数据结构与算法.html)
+- [分库分表](八股/14-分库分表.html)
+- [面试手撕算法](八股/15-面试手撕算法.html)
+- [智力题](八股/16-智力题.html)
+- [AI大模型](八股/17-AI大模型.html)
 
-**→ {% post_link 学习进度-README '查看学习进度' %}**
+**→ [查看学习进度](学习进度/)**
 
 ---
 
@@ -43,8 +43,8 @@ categories: 首页
 
 | 项目 | 类型 | 状态 | 笔记链接 |
 |:---:|:---:|:---:|:---:|
-| IM项目 | 即时通讯 | 🟡 进行中 | {% post_link IM项目 '项目笔记' %} |
-| RAG项目 | AI检索生成 | ⬜ 待开始 | {% post_link RAG项目 '项目笔记' %} |
+| IM项目 | 即时通讯 | 🟡 进行中 | [项目笔记](项目笔记/IM项目.html) |
+| RAG项目 | AI检索生成 | ⬜ 待开始 | [项目笔记](项目笔记/RAG项目.html) |
 
 ---
 
@@ -56,7 +56,7 @@ categories: 首页
 | 第二轮 | Codetop | ⬜ 待开始 | 面经高频题 |
 | 面试前 | 反复刷 | ⬜ 待开始 | 熟练手撕 |
 
-**→ {% post_link 手写笔记-README '刷题记录' %}**
+**→ [刷题记录](手写笔记/)**
 
 ---
 

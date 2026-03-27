@@ -19,10 +19,10 @@ categories: 学习进度
 
 | 分类 | 进度 | 状态 |
 |:---:|:---:|:---:|
-| {% post_link 学习进度-八股-JavaSE 'JavaSE' %} | 0/6 | ⬜ |
-| {% post_link 学习进度-八股-JUC 'JUC并发' %} | 0/11 | ⬜ |
-| {% post_link 学习进度-八股-MySQL 'MySQL' %} | 0/8 | ⬜ |
-| {% post_link 学习进度-八股-Redis 'Redis' %} | 0/10 | ⬜ |
+| [JavaSE](八股-JavaSE.html) | 0/6 | ⬜ |
+| [JUC并发](八股-JUC.html) | 0/11 | ⬜ |
+| [MySQL](八股-MySQL.html) | 0/8 | ⬜ |
+| [Redis](八股-Redis.html) | 0/10 | ⬜ |
 | 其他 | - | ⬜ |
 
 **总进度：0/117**
@@ -33,8 +33,8 @@ categories: 学习进度
 
 | 项目 | 进度 | 状态 |
 |:---:|:---:|:---:|
-| {% post_link 学习进度-项目-IM 'IM项目' %} | 0% | 🟡 进行中 |
-| {% post_link 学习进度-项目-RAG 'RAG项目' %} | 0% | ⬜ 待开始 |
+| [IM项目](项目-IM.html) | 0% | 🟡 进行中 |
+| [RAG项目](项目-RAG.html) | 0% | ⬜ 待开始 |
 
 ---
 
@@ -42,7 +42,7 @@ categories: 学习进度
 
 | 阶段 | 进度 | 状态 |
 |:---:|:---:|:---:|
-| {% post_link 学习进度-算法-Hot100 'Hot 100' %} | 0/100 | 🟡 进行中 |
+| [Hot 100](算法-Hot100.html) | 0/100 | 🟡 进行中 |
 | Codetop | 0/? | ⬜ 待开始 |
 | 面试前复习 | - | ⬜ 待开始 |
 

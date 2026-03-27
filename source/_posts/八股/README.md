@@ -12,27 +12,29 @@ categories: 八股
 
 <!-- more -->
 
+---
+
 ## 背诵计划
 
 | 序号 | 分类 | 进度 | 重要度 | 状态 |
 |:---:|:---|:---:|:---:|:---:|
-| 1 | [JavaSE](/internship-prep-2026/八股/01-JavaSE.html) | 0/6 | ⭐⭐⭐ | ⬜ |
-| 2 | [JUC并发](/internship-prep-2026/八股/02-JUC.html) | 0/11 | ⭐⭐⭐⭐⭐ | ⬜ |
-| 3 | [JVM](/internship-prep-2026/八股/03-JVM.html) | 0/7 | ⭐⭐⭐⭐⭐ | ⬜ |
-| 4 | [MySQL](/internship-prep-2026/八股/04-MySQL.html) | 0/8 | ⭐⭐⭐⭐⭐ | ⬜ |
-| 5 | [Redis](/internship-prep-2026/八股/05-Redis.html) | 0/10 | ⭐⭐⭐⭐⭐ | ⬜ |
-| 6 | [Kafka](/internship-prep-2026/八股/06-Kafka.html) | 0/7 | ⭐⭐⭐ | ⬜ |
-| 7 | [Spring](/internship-prep-2026/八股/07-Spring.html) | 0/8 | ⭐⭐⭐⭐⭐ | ⬜ |
-| 8 | [计算机网络](/internship-prep-2026/八股/08-计算机网络.html) | 0/6 | ⭐⭐⭐⭐ | ⬜ |
-| 9 | [操作系统](/internship-prep-2026/八股/09-操作系统.html) | 0/6 | ⭐⭐⭐ | ⬜ |
-| 10 | [分布式](/internship-prep-2026/八股/10-分布式.html) | 0/5 | ⭐⭐⭐ | ⬜ |
-| 11 | [问题排查](/internship-prep-2026/八股/11-问题排查.html) | 0/2 | ⭐⭐⭐ | ⬜ |
-| 12 | [场景题](/internship-prep-2026/八股/12-场景题.html) | 0/12 | ⭐⭐⭐⭐ | ⬜ |
-| 13 | [数据结构与算法](/internship-prep-2026/八股/13-数据结构与算法.html) | 0/3 | ⭐⭐⭐ | ⬜ |
-| 14 | [分库分表](/internship-prep-2026/八股/14-分库分表.html) | 0/5 | ⭐⭐ | ⬜ |
-| 15 | [面试手撕算法](/internship-prep-2026/八股/15-面试手撕算法.html) | 0/4 | ⭐⭐⭐⭐ | ⬜ |
-| 16 | [智力题](/internship-prep-2026/八股/16-智力题.html) | 0/11 | ⭐⭐ | ⬜ |
-| 17 | [AI大模型](/internship-prep-2026/八股/17-AI大模型.html) | 0/6 | ⭐⭐⭐ | ⬜ |
+| 1 | {% post_link 01-JavaSE 'JavaSE' %} | 0/6 | ⭐⭐⭐ | ⬜ |
+| 2 | {% post_link 02-JUC 'JUC并发' %} | 0/11 | ⭐⭐⭐⭐⭐ | ⬜ |
+| 3 | {% post_link 03-JVM 'JVM' %} | 0/7 | ⭐⭐⭐⭐⭐ | ⬜ |
+| 4 | {% post_link 04-MySQL 'MySQL' %} | 0/8 | ⭐⭐⭐⭐⭐ | ⬜ |
+| 5 | {% post_link 05-Redis 'Redis' %} | 0/10 | ⭐⭐⭐⭐⭐ | ⬜ |
+| 6 | {% post_link 06-Kafka 'Kafka' %} | 0/7 | ⭐⭐⭐ | ⬜ |
+| 7 | {% post_link 07-Spring 'Spring' %} | 0/8 | ⭐⭐⭐⭐⭐ | ⬜ |
+| 8 | {% post_link 08-计算机网络 '计算机网络' %} | 0/6 | ⭐⭐⭐⭐ | ⬜ |
+| 9 | {% post_link 09-操作系统 '操作系统' %} | 0/6 | ⭐⭐⭐ | ⬜ |
+| 10 | {% post_link 10-分布式 '分布式' %} | 0/5 | ⭐⭐⭐ | ⬜ |
+| 11 | {% post_link 11-问题排查 '问题排查' %} | 0/2 | ⭐⭐⭐ | ⬜ |
+| 12 | {% post_link 12-场景题 '场景题' %} | 0/12 | ⭐⭐⭐⭐ | ⬜ |
+| 13 | {% post_link 13-数据结构与算法 '数据结构与算法' %} | 0/3 | ⭐⭐⭐ | ⬜ |
+| 14 | {% post_link 14-分库分表 '分库分表' %} | 0/5 | ⭐⭐ | ⬜ |
+| 15 | {% post_link 15-面试手撕算法 '面试手撕算法' %} | 0/4 | ⭐⭐⭐⭐ | ⬜ |
+| 16 | {% post_link 16-智力题 '智力题' %} | 0/11 | ⭐⭐ | ⬜ |
+| 17 | {% post_link 17-AI大模型 'AI大模型' %} | 0/6 | ⭐⭐⭐ | ⬜ |
 
 ---
 

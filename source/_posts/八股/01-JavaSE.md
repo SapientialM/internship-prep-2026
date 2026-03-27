@@ -1,4 +1,7 @@
 ---
+
+<!-- more -->
+
 title: 01-JavaSE
 date: 2024-01-01 00:00:00
 tags: [八股, JavaSE]

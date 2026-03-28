@@ -17,7 +17,7 @@ categories: 首页
 
 ### 1️⃣ 八股文
 
-1. JavaSE - 6题
+1. {% post_link 01-JavaSE 'JavaSE' %}
 2. JUC并发 - 11题  
 3. JVM - 7题
 4. MySQL - 8题

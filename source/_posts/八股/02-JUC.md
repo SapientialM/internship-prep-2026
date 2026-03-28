@@ -1,5 +1,5 @@
 ---
-title: 02-JUC (Java并发)
+title: 02-JUC
 date: 2026-03-27 00:00:00
 tags: [八股, JUC, 并发]
 categories: 八股

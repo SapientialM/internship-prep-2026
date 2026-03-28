@@ -10,8 +10,6 @@ categories: 八股, JavaSE
 
 # JDK
 
----
-
 <!-- more -->
 
 ## JDK 5 新特性

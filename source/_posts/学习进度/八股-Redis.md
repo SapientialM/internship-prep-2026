@@ -1,7 +1,7 @@
 ---
 
 
-title: 学习进度 - Redis
+title: 八股-Redis
 date: 2026-03-27 00:00:00
 tags: [进度, Redis]
 categories: 学习进度

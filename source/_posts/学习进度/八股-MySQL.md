@@ -1,7 +1,7 @@
 ---
 
 
-title: 学习进度 - MySQL
+title: 八股-MySQL
 date: 2026-03-27 00:00:00
 tags: [进度, MySQL]
 categories: 学习进度

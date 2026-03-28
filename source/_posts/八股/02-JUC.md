@@ -7,9 +7,9 @@ categories: 八股
 
 # JUC (Java并发)
 
-- {% post_link 线程 '线程' %}
-- {% post_link 线程池 '线程池' %}
-- {% post_link 线程安全 '线程安全' %}
+- {% post_link 八股-线程 '八股-线程' %}
+- {% post_link 八股-线程池 '八股-线程池' %}
+- {% post_link 八股-线程安全 '八股-线程安全' %}
 
-- {% post_link JUC锁 'JUC锁' %}
+- {% post_link 八股-JUC锁 '八股-JUC锁' %}
 - 

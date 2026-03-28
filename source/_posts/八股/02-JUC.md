@@ -11,5 +11,5 @@ categories: 八股
 - {% post_link 八股-线程池 '八股-线程池' %}
 - {% post_link 八股-线程安全 '八股-线程安全' %}
 
-- {% post_link 八股-JUC锁 '八股-锁' %}
+- {% post_link 八股-锁 '八股-锁' %}
 - 

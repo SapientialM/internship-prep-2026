@@ -8,3 +8,6 @@ categories: 八股
 # JavaSE
 
 - {% post_link 八股-集合 '八股-集合' %}
+- {% post_link 八股-集合 '八股-泛型' %}
+- {% post_link 八股-集合 '八股-反射' %}
+- 

@@ -1,7 +1,7 @@
 ---
 
 
-title: 项目-RAG项目
+title: 项目-RAG
 date: 2026-03-27 00:00:00
 tags: [进度, 项目, RAG]
 categories: 学习进度

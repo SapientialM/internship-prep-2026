@@ -18,22 +18,22 @@ categories: 首页
 ### 1️⃣ 八股文
 
 1. {% post_link 01-JavaSE 'JavaSE' %}
-2. JUC并发 - 11题  
-3. JVM - 7题
-4. MySQL - 8题
-5. Redis - 10题
-6. Kafka - 7题
-7. Spring - 8题
-8. 计算机网络 - 6题
-9. 操作系统 - 6题
-10. 分布式 - 5题
-11. 问题排查 - 2题
-12. 场景题 - 12题
-13. 数据结构与算法 - 3题
-14. 分库分表 - 5题
-15. 面试手撕算法 - 4题
-16. 智力题 - 11题
-17. AI大模型 - 6题
+2. {% post_link 02-JUC 'JUC并发 - 11题' %}
+3. {% post_link 03-JVM 'JVM - 7题' %}
+4. {% post_link 04-MySQL 'MySQL - 8题' %}
+5. {% post_link 05-Redis 'Redis - 10题' %}
+6. {% post_link 06-Kafka 'Kafka - 7题' %}
+7. {% post_link 07-Spring 'Spring - 8题' %}
+8. {% post_link 08-计算机网络 '计算机网络 - 6题' %}
+9. {% post_link 09-操作系统 '操作系统 - 6题' %}
+10. {% post_link 10-分布式 '分布式 - 5题' %}
+11. {% post_link 11-问题排查 '问题排查 - 2题' %}
+12. {% post_link 12-场景题 '场景题 - 12题' %}
+13. {% post_link 13-数据结构与算法 '数据结构与算法 - 3题' %}
+14. {% post_link 14-分库分表 '分库分表 - 5题' %}
+15. {% post_link 15-面试手撕算法 '面试手撕算法 - 4题' %}
+16. {% post_link 16-智力题 '智力题 - 11题' %}
+17. {% post_link 17-AI大模型 'AI大模型 - 6题' %}
 
 **→ 查看学习进度（学习进度分类下）**
 

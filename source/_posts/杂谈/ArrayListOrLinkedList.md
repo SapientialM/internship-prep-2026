@@ -13,6 +13,8 @@ categories: 杂谈
 >
 > 想来解释一下为什么？
 
+<!-- more -->
+
 ## 一句话结论
 
 **如果你需要栈或队列，用 `ArrayDeque`，别用 `LinkedList`。**

@@ -12,6 +12,8 @@ categories: 八股, JavaSE
 
 ---
 
+<!-- more -->
+
 ## JDK 5 新特性
 
 ### 泛型（Generics）

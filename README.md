@@ -2,110 +2,176 @@
 
 > 🚀 一个全面的技术知识仓库，涵盖计算机基础、算法、后端开发、项目经验、面经记录等内容
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://your-username.github.io/internship-prep-2026)
-[![Hexo](https://img.shields.io/badge/Powered%20by-Hexo-blue)](https://hexo.io/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://sapientialm.github.io/internship-prep-2026)
+[![Hexo](https://img.shields.io/badge/Powered%20by-Hexo%207.3.0-blue)](https://hexo.io/)
+[![NexT](https://img.shields.io/badge/Theme-NexT%208.19.0-ff69b4)](https://theme-next.js.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ---
 
-## 📋小记
+## 📋 小记
 
 > 我是2027届的，在准备暑期实习，计划是冲大厂，但是觉得自己其实项目、八股都不是很了解；所以在这里进行一个系统性的整理与记录；记录开始的时间是 2026年3月26日，这个时间之前，我已经刷了Hot100 两遍了（虽然还是没办法秒），项目准备的是一个IM项目（自行魔改）和一个RAG项目（来自二哥+魔改）；所以！开始记录我进步吧！希望还有机会！已经很晚了。八股看的月如风（JavaGuide和小林辅助，因为没时间了）
 
+---
+
 ## 📚 内容导航
 
-### 📋 知识清单
+### 📝 八股文 (面试知识点)
 
-系统化的知识点梳理，便于检查学习进度
+系统整理的面试知识点，涵盖后端开发核心技术栈：
 
-- [ ] [算法与数据结构清单](./source/_posts/知识清单/算法与数据结构清单.md)
-- [ ] [计算机网络清单](./source/_posts/知识清单/计算机网络清单.md)
-- [ ] [操作系统清单](./source/_posts/知识清单/操作系统清单.md)
-- [ ] [数据库清单](./source/_posts/知识清单/数据库清单.md)
-- [ ] [Java基础清单](./source/_posts/知识清单/Java基础清单.md)
-- [ ] [Java并发清单](./source/_posts/知识清单/Java并发清单.md)
-- [ ] [JVM清单](./source/_posts/知识清单/JVM清单.md)
-- [ ] [Spring框架清单](./source/_posts/知识清单/Spring框架清单.md)
+| 序号 | 主题 | 文件 |
+|:---:|:---|:---|
+| 01 | JavaSE基础 | [01-JavaSE.md](./source/_posts/八股/01-JavaSE.md) |
+| 02 | Java并发编程(JUC) | [02-JUC.md](./source/_posts/八股/02-JUC.md) |
+| 03 | JVM虚拟机 | [03-JVM.md](./source/_posts/八股/03-JVM.md) |
+| 04 | MySQL数据库 | [04-MySQL.md](./source/_posts/八股/04-MySQL.md) |
+| 05 | Redis缓存 | [05-Redis.md](./source/_posts/八股/05-Redis.md) |
+| 06 | Kafka消息队列 | [06-Kafka.md](./source/_posts/八股/06-Kafka.md) |
+| 07 | Spring框架 | [07-Spring.md](./source/_posts/八股/07-Spring.md) |
+| 08 | 计算机网络 | [08-计算机网络.md](./source/_posts/八股/08-计算机网络.md) |
+| 09 | 操作系统 | [09-操作系统.md](./source/_posts/八股/09-操作系统.md) |
+| 10 | 分布式系统 | [10-分布式.md](./source/_posts/八股/10-分布式.md) |
+| 11 | 问题排查 | [11-问题排查.md](./source/_posts/八股/11-问题排查.md) |
+| 12 | 场景设计题 | [12-场景题.md](./source/_posts/八股/12-场景题.md) |
+| 13 | 数据结构与算法 | [13-数据结构与算法.md](./source/_posts/八股/13-数据结构与算法.md) |
+| 14 | 分库分表 | [14-分库分表.md](./source/_posts/八股/14-分库分表.md) |
+| 15 | 面试手撕算法 | [15-面试手撕算法.md](./source/_posts/八股/15-面试手撕算法.md) |
+| 16 | 智力题 | [16-智力题.md](./source/_posts/八股/16-智力题.md) |
+| 17 | AI大模型 | [17-AI大模型.md](./source/_posts/八股/17-AI大模型.md) |
 
-### 📝 技术笔记
+**JUC细分专题**：
+- [线程](./source/_posts/八股/JUC/八股-线程.md)
+- [线程安全](./source/_posts/八股/JUC/八股-线程安全.md)
+- [线程池](./source/_posts/八股/JUC/八股-线程池.md)
+- [锁](./source/_posts/八股/JUC/八股-锁.md)
 
-详细的技术知识点笔记，包含原理、源码、实践
-
-- **Java基础**
-  - [HashMap源码深度解析](./source/_posts/Java基础/HashMap源码解析.md)
-  - [ArrayList源码解析](./source/_posts/Java基础/ArrayList源码解析.md)
-  
-- **Java并发**
-  - [ConcurrentHashMap源码分析](./source/_posts/Java并发/ConcurrentHashMap源码分析.md)
-  - [线程池原理与实践](./source/_posts/Java并发/线程池原理与实践.md)
-  - [synchronized与锁优化](./source/_posts/Java并发/synchronized与锁优化.md)
-
-- **JVM**
-  - [JVM内存模型](./source/_posts/JVM/JVM内存模型.md)
-  - [垃圾回收算法](./source/_posts/JVM/垃圾回收算法.md)
-
-- **计算机网络**
-  - [HTTP与HTTPS详解](./source/_posts/计算机网络/HTTP与HTTPS详解.md)
-  - [TCP三次握手四次挥手](./source/_posts/计算机网络/TCP三次握手四次挥手.md)
-
-- **数据库**
-  - [MySQL索引原理](./source/_posts/数据库/MySQL索引原理.md)
-  - [事务与锁机制](./source/_posts/数据库/事务与锁机制.md)
+**JavaSE细分专题**：
+- [JDK](./source/_posts/八股/JavaSE/八股-JDK.md)
+- [动态代理](./source/_posts/八股/JavaSE/八股-动态代理.md)
+- [反射](./source/_posts/八股/JavaSE/八股-反射.md)
+- [泛型](./source/_posts/八股/JavaSE/八股-泛型.md)
+- [集合](./source/_posts/八股/JavaSE/八股-集合.md)
 
 ### 💼 项目笔记
 
-项目经验整理，包含技术亮点、遇到的问题、面试题等
+项目经验整理，包含技术亮点、遇到的问题、面试题等：
 
-- [分布式电商系统](./source/_posts/项目笔记/分布式电商系统.md)
-- [XX系统](./source/_posts/项目笔记/XX系统.md)
-
-### 🎤 面经记录
-
-面试经验记录与复盘，包含题目、答案、反思
-
-- [字节跳动-后端开发-一面](./source/_posts/面经记录/字节跳动-后端开发-一面.md)
-- [阿里巴巴-后端开发-一面](./source/_posts/面经记录/阿里巴巴-后端开发-一面.md)
+- [IM项目](./source/_posts/项目笔记/IM项目.md) - 即时通讯系统（自行魔改）
+- [RAG项目](./source/_posts/项目笔记/RAG项目.md) - RAG检索增强生成（来自二哥+魔改）
 
 ### 📅 学习记录
 
-日常学习记录与总结
+日常学习记录与打卡：
 
 - [学习记录汇总](./source/_posts/学习记录/)
 
----
+### ✍️ 手写笔记
 
-## 📊 学习进度概览
+手写整理的知识点：
 
-| 分类 | 知识点总数 | 已掌握 | 进行中 | 未开始 | 完成率 |
-|:---|:---:|:---:|:---:|:---:|:---:|
-| 算法与数据结构 | 0 | 0 | 0 | 0 | 0% |
-| 计算机网络 | 0 | 0 | 0 | 0 | 0% |
-| 操作系统 | 0 | 0 | 0 | 0 | 0% |
-| 数据库 | 0 | 0 | 0 | 0 | 0% |
-| Java基础 | 0 | 0 | 0 | 0 | 0% |
-| Java并发 | 0 | 0 | 0 | 0 | 0% |
-| JVM | 0 | 0 | 0 | 0 | 0% |
-| Spring框架 | 0 | 0 | 0 | 0 | 0% |
-| **总计** | **0** | **0** | **0** | **0** | **0%** |
+- [示例笔记](./source/_posts/手写笔记/2026-03-27-示例笔记.md)
+
+### 💬 杂谈
+
+技术杂谈与思考：
+
+- [ArrayListOrLinkedList](./source/_posts/杂谈/ArrayListOrLinkedList.md)
 
 ---
 
 ## 🛠 技术栈
 
-- **笔记工具**: Markdown + Typora
-- **博客框架**: Hexo + NexT主题
-- **部署平台**: GitHub Pages
-- **版本控制**: Git + GitHub
+| 类别 | 技术 |
+|:---|:---|
+| **博客框架** | [Hexo](https://hexo.io/) 7.3.0 |
+| **主题** | [NexT](https://theme-next.js.org/) 8.19.0 |
+| **部署平台** | GitHub Pages |
+| **自动部署** | GitHub Actions |
+| **笔记工具** | Markdown + Typora |
+| **版本控制** | Git + GitHub |
 
 ---
 
-## 📖 如何阅读
+## 🚀 快速开始
 
-1. **按清单学习**: 从[知识清单总览](./source/_posts/知识清单/README.md)开始，按分类系统学习
-2. **按学习记录学习：**从[学习记录汇总](./source/_posts/学习记录/)开始，参照学习记录的进度学习
-3. **查看详细笔记**: 遇到不理解的知识点，查看对应的技术笔记
-4. **参考项目经验**: 了解如何将知识应用到实际项目中
-5. **阅读面经**: 了解面试题型和答题技巧
+### 在线访问
+
+🌐 **博客地址**: https://sapientialm.github.io/internship-prep-2026
+
+### 本地运行
+
+```bash
+# 1. 克隆仓库
+git clone git@github.com:SapientialM/internship-prep-2026.git
+cd internship-prep-2026
+
+# 2. 安装依赖
+npm install
+
+# 3. 本地预览
+npm run server
+
+# 4. 访问 http://localhost:4000
+```
+
+### 常用命令
+
+```bash
+# 本地预览
+npm run server
+
+# 创建新文章
+node new-post.js tech "文章标题"
+
+# 构建
+npm run build
+
+# 部署
+npm run deploy
+```
+
+---
+
+## 📁 项目结构
+
+```
+internship-prep-2026/
+├── source/_posts/          # 博客文章目录
+│   ├── 八股/               # 八股文知识点（17个主题）
+│   ├── 项目笔记/           # 项目经验
+│   ├── 学习记录/           # 学习日志
+│   ├── 手写笔记/           # 手写笔记
+│   └── 杂谈/               # 技术杂谈
+├── templates/              # 文章模板
+│   ├── tech-note-template.md
+│   ├── project-note-template.md
+│   ├── interview-exp-template.md
+│   ├── daily-record-template.md
+│   └── knowledge-checklist-template.md
+├── _config.yml             # Hexo主配置
+├── _config.next.yml        # NexT主题配置
+├── new-post.js             # 快速创建文章脚本
+└── .github/workflows/      # GitHub Actions配置
+    └── pages.yml           # 自动部署配置
+```
+
+---
+
+## 📝 如何阅读
+
+1. **系统学习八股文**: 从 [八股文目录](./source/_posts/八股/) 开始，按顺序学习面试知识点
+2. **查看项目笔记**: 了解项目经验和技术亮点
+3. **查看学习记录**: 追踪学习进度和日常打卡
+4. **使用本地搜索**: 博客内置搜索功能，快速定位知识点
+
+---
+
+## 📖 详细文档
+
+- [开发者手册](./README_DEV.md) - 详细的开发、部署、使用指南
+- [目录结构说明](./DIRECTORY_STRUCTURE.md) - 项目目录结构详解
 
 ---
 

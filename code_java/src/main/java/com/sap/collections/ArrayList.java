@@ -18,6 +18,7 @@ public class ArrayList<E> implements List<E> {
     @Override
     public void add(E element) {
         if(size == table.length) {
+            // 扩容
             resize();
         }
         table[size++] = element;
@@ -25,6 +26,7 @@ public class ArrayList<E> implements List<E> {
 
     private void resize() {
         Object[] newTable = new Object[table.length * 2];
+        // 这里用内存拷贝
         System.arraycopy(table, 0, newTable, 0, table.length);
         this.table = newTable;
     }
@@ -57,6 +59,7 @@ public class ArrayList<E> implements List<E> {
     @Override
     public boolean remove(E element) {
         for (int i = 0; i < size; i++) {
+            // 查找需要 equals 而不是 ==
             if(Objects.equals(element, table[i])){
                 remove(i);
                 return true;

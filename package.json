@@ -1,20 +1,13 @@
 {
   "name": "internship-prep-2026",
   "version": "1.0.0",
-  "description": "2026暑期实习准备笔记 - 知识清单、技术笔记、项目笔记、面经记录",
+  "description": "2026暑期实习备战笔记 - 知识清单、技术笔记、项目笔记、面经记录",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "build": "hexo generate",
-    "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server",
-    "dev": "hexo server --drafts",
-    "new": "hexo new",
-    "new:post": "hexo new post",
-    "new:draft": "hexo new draft"
-  },
-  "hexo": {
-    "version": "7.3.0"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
     "hexo": "^7.0.0",
@@ -31,14 +24,17 @@
     "hexo-server": "^3.0.0",
     "hexo-theme-next": "^8.19.0"
   },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  },
   "keywords": [
-    "hexo",
-    "blog",
-    "notes",
     "interview",
+    "java",
+    "backend",
+    "notes",
     "cs",
     "algorithm"
   ],
-  "author": "",
+  "author": "SapientialM",
   "license": "MIT"
 }
